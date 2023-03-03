@@ -72,42 +72,41 @@ export default function Home() {
                 justifyContent={'start'}
                 gap="1rem"
               >
-                <IconPhone color={tokens.colors.blue[40]} /> +1 555-5555
+                <IconPhone color={tokens.colors.blue[40]} /> +63 555-5555
               </Button>
               <Button
                 color={tokens.colors.neutral[40]}
                 justifyContent={'start'}
                 gap="1rem"
               >
-                <IconEmail color={tokens.colors.blue[40]} />{' '}
-                mtliendo@focusotter.com
+                <IconEmail color={tokens.colors.blue[40]} /> jctapawan@gmail.com
               </Button>
               <Button
                 color={tokens.colors.neutral[40]}
                 justifyContent={'start'}
                 gap="1rem"
               >
-                <IconLocationOn color={tokens.colors.blue[40]} /> Iowa, United
-                States
+                <IconLocationOn color={tokens.colors.blue[40]} /> Dasmarinas,
+                Philippines
               </Button>
             </ButtonGroup>
             <Flex style={{marginLeft: tokens.space.large}}>
               <Link
-                href="https://twitter.com/mtliendo"
+                href="https://twitter.com/"
                 color={tokens.colors.blue[20]}
                 fontSize={'2rem'}
               >
                 <Icon ariaLabel="twitter" as={BsTwitter} />
               </Link>
               <Link
-                href="https://youtube.com/focusotter"
+                href="https://youtube.com/"
                 color={tokens.colors.red[60]}
                 fontSize={'2rem'}
               >
                 <Icon ariaLabel="youtube" as={BsYoutube} />
               </Link>
               <Link
-                href="https://blog.focusotter.com"
+                href="https://blog.com"
                 color={tokens.colors.green[40]}
                 fontSize={'2rem'}
               >
